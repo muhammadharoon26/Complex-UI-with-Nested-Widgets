@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Widget Tree for a Simple UI',
+      title: 'Complex UI with Nested Widgets',
       home: ComplexUI(),
     );
   }
@@ -21,7 +21,7 @@ class ComplexUI extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Title"),
+        title: Text("Complex UI with Nested Widgets"),
         backgroundColor: Colors.teal[200],
       ),
       body: Column(
